@@ -1,0 +1,123 @@
+{
+  "assets": [
+    {
+      "type": "image",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAsCAYAAADxRjE/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuMTQ2Mjg5OSwgMjAyMy8wNi8yNS0yMDowMTo1NSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wOS0yNlQxNDoxNjoyOSswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMDktMjZUMTQ6MTk6NDIrMDU6MzAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMDktMjZUMTQ6MTk6NDIrMDU6MzAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJjNDEzZDdmLTI0YzEtZjI0Ni1hMGI3LWNmOTMxODM0NzdmOCIgeG1wTU06RG9jdW1lbnRJRD0i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",
+      "unitDim": "px",
+      "height": 44,
+      "width": 45,
+      "name": "huge-used-inventory.png"
+    }
+  ],
+  "styles": [
+    {
+      "selectors": [
+        {
+          "name": "gjs-row",
+          "private": 1
+        }
+      ],
+      "style": {
+        "display": "table",
+        "padding-top": "10px",
+        "padding-right": "10px",
+        "padding-bottom": "10px",
+        "padding-left": "10px",
+        "width": "100%"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "frames": [
+        {
+          "component": {
+            "type": "wrapper",
+            "stylable": [
+              "background",
+              "background-color",
+              "background-image",
+              "background-repeat",
+              "background-attachment",
+              "background-position",
+              "background-size"
+            ],
+            "attributes": {
+              "id": "i3ha"
+            },
+            "components": [
+              {
+                "type": "custom-slider",
+                "attributes": {
+                  "slides": [
+                    {
+                      "image": "https://www.anniesannuals.com/cdn-cgi/image//https://storage.anniesannuals.com/annies/1/store/5/images/ca%20natives%20sale.png",
+                      "title": "Hello World",
+                      "description": "Description for banner",
+                      "buttonText": "Explore",
+                      "buttonBackgroundColor": "#e2b439",
+                      "textColor": "white",
+                      "mediaType": "image"
+                    },
+                    {
+                      "image": "https://www.anniesannuals.com/cdn-cgi/image//https://storage.anniesannuals.com/annies/1/store/5/images/main-page-banner-01.jpg",
+                      "title": "Banner 2",
+                      "mediaType": "image",
+                      "description": "Banner 2 description",
+                      "buttonText": "Click me",
+                      "buttonBackgroundColor": "#1f4dc6",
+                      "textColor": "#f6e9e9"
+                    },
+                    {
+                      "image": "",
+                      "title": "aSAsas"
+                    }
+                  ],
+                  "id": "iugi"
+                }
+              },
+              {
+                "type": "text",
+                "attributes": {
+                  "id": "innoh"
+                },
+                "components": [
+                  {
+                    "type": "textnode",
+                    "content": "sdasdadasdsd"
+                  },
+                  {
+                    "tagName": "br",
+                    "void": true
+                  },
+                  {
+                    "type": "textnode",
+                    "content": "dasdadadadasd"
+                  },
+                  {
+                    "tagName": "br",
+                    "void": true
+                  },
+                  {
+                    "type": "textnode",
+                    "content": "aadadasdd"
+                  }
+                ]
+              }
+            ],
+            "head": {
+              "type": "head"
+            },
+            "docEl": {
+              "tagName": "html"
+            }
+          },
+          "id": "nNUxZx45itdIYIWq"
+        }
+      ],
+      "id": "n3GB2CmxPDS4aKyW"
+    }
+  ],
+  "symbols": [],
+  "dataSources": []
+}

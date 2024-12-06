@@ -1,0 +1,64 @@
+{
+  "components": [
+    [
+      {
+        "type": "custom-slider",
+        "attributes": {
+          "slides": [
+            {
+              "image": "https://www.anniesannuals.com/cdn-cgi/image//https://storage.anniesannuals.com/annies/1/store/5/images/ca%20natives%20sale.png",
+              "title": "Hello World",
+              "description": "Description for banner",
+              "buttonText": "Explore",
+              "buttonBackgroundColor": "#e2b439",
+              "textColor": "white",
+              "mediaType": "image"
+            },
+            {
+              "image": "https://www.anniesannuals.com/cdn-cgi/image//https://storage.anniesannuals.com/annies/1/store/5/images/main-page-banner-01.jpg",
+              "title": "Banner 2",
+              "mediaType": "image",
+              "description": "Banner 2 description",
+              "buttonText": "Click me",
+              "buttonBackgroundColor": "#1f4dc6",
+              "textColor": "#f6e9e9"
+            }
+          ],
+          "id": "iugi"
+        }
+      },
+      {
+        "type": "dynamic-products",
+        "attributes": {
+          "data-custom-attribute": "value"
+        }
+      },
+      {
+        "type": "text",
+        "attributes": {
+          "id": "innoh",
+          "content": [
+            {
+              "type": "textnode",
+              "content": "sdsaddasd"
+            },
+            {
+              "padding": "10px",
+              "color": "#ec2a2a",
+              "background-color": "#1b2119"
+            },
+            {
+              "type": "textnode",
+              "content": "dasdadsa"
+            }
+          ],
+          "style": {
+            "padding": "10px",
+            "color": "#ec2a2a",
+            "background-color": "#1b2119"
+          }
+        }
+      }
+    ]
+  ]
+}

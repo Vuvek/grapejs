@@ -1,0 +1,3841 @@
+{
+  "assets": [
+    {
+      "type": "image",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAsCAYAAADxRjE/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuMTQ2Mjg5OSwgMjAyMy8wNi8yNS0yMDowMTo1NSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wOS0yNlQxNDoxNjoyOSswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMDktMjZUMTQ6MTk6NDIrMDU6MzAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMDktMjZUMTQ6MTk6NDIrMDU6MzAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJjNDEzZDdmLTI0YzEtZjI0Ni1hMGI3LWNmOTMxODM0NzdmOCIgeG1wTU06RG9jdW1lbnRJRD0i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",
+      "unitDim": "px",
+      "height": 44,
+      "width": 45,
+      "name": "huge-used-inventory.png"
+    },
+    {
+      "type": "image",
+      "src": "data:image/png;base64,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",
+      "unitDim": "px",
+      "height": 44,
+      "width": 45,
+      "name": "competitive-pricing.png"
+    },
+    {
+      "type": "image",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAsCAYAAADxRjE/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuMTQ2Mjg5OSwgMjAyMy8wNi8yNS0yMDowMTo1NSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wOS0yNlQxNDoxNjoyOSswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMDktMjZUMTQ6MjA6MDYrMDU6MzAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMDktMjZUMTQ6MjA6MDYrMDU6MzAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjIwODQ4ZmNlLWRkZWEtYWQ0YS04MjRhLWVmZmViMmVjYzZjNCIgeG1wTU06RG9jdW1lbnRJRD0i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",
+      "unitDim": "px",
+      "height": 44,
+      "width": 45,
+      "name": "top-brands.png"
+    },
+    {
+      "type": "image",
+      "src": "data:image/png;base64,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",
+      "unitDim": "px",
+      "height": 44,
+      "width": 45,
+      "name": "top-sales-pros.png"
+    },
+    {
+      "type": "image",
+      "src": "https://redefinecommerce.blob.core.windows.net/lanomedia/1/store/5/images/d-what-lano-offers.png?0.16061601495898614",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "src=\"https://redefinecommerce.blob.core.windows.net/lanomedia/1/store/5/images/d-what-lano-offers.png?0.16061601495898614\"",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "data:image/png;base64,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",
+      "unitDim": "px",
+      "height": 40,
+      "width": 63,
+      "name": "card-american-express copy.png"
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/78c5d6/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/459ba8/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/79c267/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/c5d647/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/f28c33/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/e868a2/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    },
+    {
+      "type": "image",
+      "src": "https://via.placeholder.com/350x250/cc4360/fff",
+      "unitDim": "px",
+      "height": 0,
+      "width": 0
+    }
+  ],
+  "styles": [
+    {
+      "selectors": ["clearfix"],
+      "style": {
+        "clear": "both"
+      }
+    },
+    {
+      "selectors": ["header-banner"],
+      "style": {
+        "padding-top": "35px",
+        "padding-bottom": "100px",
+        "color": "#ffffff",
+        "font-family": "Helvetica, serif",
+        "font-weight": "100",
+        "background-image": "url(\"/assets/images/demos/bg-gr-v.png\"), url(\"/assets/images/demos/work-desk.jpg\")",
+        "background-attachment": "scroll, scroll",
+        "background-position": "left top, center center",
+        "background-repeat": "repeat-y, no-repeat",
+        "background-size": "contain, cover"
+      }
+    },
+    {
+      "selectors": ["container-width"],
+      "style": {
+        "width": "90%",
+        "max-width": "1150px",
+        "margin": "0 auto"
+      }
+    },
+    {
+      "selectors": ["logo-container"],
+      "style": {
+        "float": "left",
+        "width": "50%"
+      }
+    },
+    {
+      "selectors": ["logo"],
+      "style": {
+        "background-color": "#fff",
+        "border-radius": "5px",
+        "width": "130px",
+        "padding": "10px",
+        "min-height": "30px",
+        "text-align": "center",
+        "line-height": "30px",
+        "color": "#4d114f",
+        "font-size": "23px"
+      }
+    },
+    {
+      "selectors": ["menu"],
+      "style": {
+        "float": "right",
+        "width": "50%"
+      }
+    },
+    {
+      "selectors": ["menu-item"],
+      "style": {
+        "float": "right",
+        "font-size": "15px",
+        "color": "#eee",
+        "width": "130px",
+        "padding": "10px",
+        "min-height": "50px",
+        "text-align": "center",
+        "line-height": "30px",
+        "font-weight": "400"
+      }
+    },
+    {
+      "selectors": ["lead-title"],
+      "style": {
+        "margin": "150px 0 30px 0",
+        "font-size": "40px"
+      }
+    },
+    {
+      "selectors": ["sub-lead-title"],
+      "style": {
+        "max-width": "650px",
+        "line-height": "30px",
+        "margin-bottom": "30px",
+        "color": "#c6c6c6"
+      }
+    },
+    {
+      "selectors": ["lead-btn"],
+      "style": {
+        "margin-top": "15px",
+        "padding": "10px",
+        "width": "190px",
+        "min-height": "30px",
+        "font-size": "20px",
+        "text-align": "center",
+        "letter-spacing": "3px",
+        "line-height": "30px",
+        "background-color": "#d983a6",
+        "border-radius": "5px",
+        "transition": "all 0.5s ease",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "selectors": ["lead-btn"],
+      "style": {
+        "background-color": "#ffffff",
+        "color": "#4c114e"
+      },
+      "state": "hover"
+    },
+    {
+      "selectors": ["lead-btn"],
+      "style": {
+        "background-color": "#4d114f",
+        "color": "#fff"
+      },
+      "state": "active"
+    },
+    {
+      "selectors": ["flex-sect"],
+      "style": {
+        "background-color": "#fafafa",
+        "padding": "100px 0",
+        "font-family": "Helvetica, serif"
+      }
+    },
+    {
+      "selectors": ["flex-title"],
+      "style": {
+        "margin-bottom": "15px",
+        "font-size": "2em",
+        "text-align": "center",
+        "font-weight": "700",
+        "color": "#555",
+        "padding": "5px"
+      }
+    },
+    {
+      "selectors": ["flex-desc"],
+      "style": {
+        "margin-bottom": "55px",
+        "font-size": "1em",
+        "color": "rgba(0, 0, 0, 0.5)",
+        "text-align": "center",
+        "padding": "5px"
+      }
+    },
+    {
+      "selectors": ["cards"],
+      "style": {
+        "padding": "20px 0",
+        "display": "flex",
+        "justify-content": "space-around",
+        "flex-flow": "wrap"
+      }
+    },
+    {
+      "selectors": ["card"],
+      "style": {
+        "background-color": "white",
+        "height": "300px",
+        "width": "300px",
+        "margin-bottom": "30px",
+        "box-shadow": "0 1px 2px 0 rgba(0, 0, 0, 0.2)",
+        "border-radius": "2px",
+        "transition": "all 0.5s ease",
+        "font-weight": "100",
+        "overflow": "hidden"
+      }
+    },
+    {
+      "selectors": ["card"],
+      "style": {
+        "margin-top": "-5px",
+        "box-shadow": "0 20px 30px 0 rgba(0, 0, 0, 0.2)"
+      },
+      "state": "hover"
+    },
+    {
+      "selectors": ["card-header"],
+      "style": {
+        "height": "155px",
+        "background-image": "url(\"https://via.placeholder.com/350x250/78c5d6/fff\")",
+        "background-size": "cover",
+        "background-position": "center center"
+      }
+    },
+    {
+      "selectors": ["card-header", "ch2"],
+      "style": {
+        "background-image": "url(\"https://via.placeholder.com/350x250/459ba8/fff\")"
+      }
+    },
+    {
+      "selectors": ["card-header", "ch3"],
+      "style": {
+        "background-image": "url(\"https://via.placeholder.com/350x250/79c267/fff\")"
+      }
+    },
+    {
+      "selectors": ["card-header", "ch4"],
+      "style": {
+        "background-image": "url(\"https://via.placeholder.com/350x250/c5d647/fff\")"
+      }
+    },
+    {
+      "selectors": ["card-header", "ch5"],
+      "style": {
+        "background-image": "url(\"https://via.placeholder.com/350x250/f28c33/fff\")"
+      }
+    },
+    {
+      "selectors": ["card-header", "ch6"],
+      "style": {
+        "background-image": "url(\"https://via.placeholder.com/350x250/e868a2/fff\")"
+      }
+    },
+    {
+      "selectors": ["card-body"],
+      "style": {
+        "padding": "15px 15px 5px 15px",
+        "color": "#555"
+      }
+    },
+    {
+      "selectors": ["card-title"],
+      "style": {
+        "font-size": "1.4em",
+        "margin-bottom": "5px"
+      }
+    },
+    {
+      "selectors": ["card-sub-title"],
+      "style": {
+        "color": "#b3b3b3",
+        "font-size": "1em",
+        "margin-bottom": "15px"
+      }
+    },
+    {
+      "selectors": ["card-desc"],
+      "style": {
+        "font-size": "0.85rem",
+        "line-height": "17px"
+      }
+    },
+    {
+      "selectors": ["am-sect"],
+      "style": {
+        "padding-top": "100px",
+        "padding-bottom": "100px",
+        "font-family": "Helvetica, serif"
+      }
+    },
+    {
+      "selectors": ["img-phone"],
+      "style": {
+        "float": "left"
+      }
+    },
+    {
+      "selectors": ["am-container"],
+      "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "align-items": "center",
+        "justify-content": "space-around"
+      }
+    },
+    {
+      "selectors": ["am-content"],
+      "style": {
+        "float": "left",
+        "padding": "7px",
+        "width": "490px",
+        "color": "#444",
+        "font-weight": "100",
+        "margin-top": "50px"
+      }
+    },
+    {
+      "selectors": ["am-pre"],
+      "style": {
+        "padding": "7px",
+        "color": "#b1b1b1",
+        "font-size": "15px"
+      }
+    },
+    {
+      "selectors": ["am-title"],
+      "style": {
+        "padding": "7px",
+        "font-size": "25px",
+        "font-weight": "400"
+      }
+    },
+    {
+      "selectors": ["am-desc"],
+      "style": {
+        "padding": "7px",
+        "font-size": "17px",
+        "line-height": "25px"
+      }
+    },
+    {
+      "selectors": ["am-post"],
+      "style": {
+        "padding": "7px",
+        "line-height": "25px",
+        "font-size": "13px"
+      }
+    },
+    {
+      "selectors": ["blk-sect"],
+      "style": {
+        "padding-top": "100px",
+        "padding-bottom": "100px",
+        "background-color": "#222222",
+        "font-family": "Helvetica, serif"
+      }
+    },
+    {
+      "selectors": ["blk-title"],
+      "style": {
+        "color": "#fff",
+        "font-size": "25px",
+        "text-align": "center",
+        "margin-bottom": "15px"
+      }
+    },
+    {
+      "selectors": ["blk-desc"],
+      "style": {
+        "color": "#b1b1b1",
+        "font-size": "15px",
+        "text-align": "center",
+        "max-width": "700px",
+        "margin": "0 auto",
+        "font-weight": "100"
+      }
+    },
+    {
+      "selectors": ["price-cards"],
+      "style": {
+        "margin-top": "70px",
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "align-items": "center",
+        "justify-content": "space-around"
+      }
+    },
+    {
+      "selectors": ["price-card-cont"],
+      "style": {
+        "width": "300px",
+        "padding": "7px",
+        "float": "left"
+      }
+    },
+    {
+      "selectors": ["price-card"],
+      "style": {
+        "margin": "0 auto",
+        "min-height": "350px",
+        "background-color": "#d983a6",
+        "border-radius": "5px",
+        "font-weight": "100",
+        "color": "#fff",
+        "width": "90%"
+      }
+    },
+    {
+      "selectors": ["pc-title"],
+      "style": {
+        "font-weight": "100",
+        "letter-spacing": "3px",
+        "text-align": "center",
+        "font-size": "25px",
+        "background-color": "rgba(0, 0, 0, 0.1)",
+        "padding": "20px"
+      }
+    },
+    {
+      "selectors": ["pc-desc"],
+      "style": {
+        "padding": "75px 0",
+        "text-align": "center"
+      }
+    },
+    {
+      "selectors": ["pc-feature"],
+      "style": {
+        "color": "rgba(255,255,255,0.5)",
+        "background-color": "rgba(0, 0, 0, 0.1)",
+        "letter-spacing": "2px",
+        "font-size": "15px",
+        "padding": "10px 20px"
+      }
+    },
+    {
+      "selectors": ["pc-feature"],
+      "style": {
+        "background-color": "transparent"
+      },
+      "state": "nth-of-type(2n)"
+    },
+    {
+      "selectors": ["pc-amount"],
+      "style": {
+        "background-color": "rgba(0, 0, 0, 0.1)",
+        "font-size": "35px",
+        "text-align": "center",
+        "padding": "35px 0"
+      }
+    },
+    {
+      "selectors": ["pc-regular"],
+      "style": {
+        "background-color": "#da78a0"
+      }
+    },
+    {
+      "selectors": ["pc-enterprise"],
+      "style": {
+        "background-color": "#d66a96"
+      }
+    },
+    {
+      "selectors": ["footer-under"],
+      "style": {
+        "background-color": "#312833",
+        "padding-bottom": "100px",
+        "padding-top": "100px",
+        "min-height": "500px",
+        "color": "#eee",
+        "position": "relative",
+        "font-weight": "100",
+        "font-family": "Helvetica,serif"
+      }
+    },
+    {
+      "selectors": ["led"],
+      "style": {
+        "border-radius": "100%",
+        "width": "10px",
+        "height": "10px",
+        "background-color": "rgba(0, 0, 0, 0.15)",
+        "float": "left",
+        "margin": "2px",
+        "transition": "all 5s ease"
+      }
+    },
+    {
+      "selectors": ["led"],
+      "style": {
+        "background-color": "#c29fca",
+        "undefined": "undefined",
+        "box-shadow": "0 0 5px #9d7aa5, 0 0 10px #e6c3ee",
+        "transition": "all 0s ease"
+      },
+      "state": "hover"
+    },
+    {
+      "selectors": ["copyright"],
+      "style": {
+        "background-color": "rgba(0, 0, 0, 0.15)",
+        "color": "rgba(238, 238, 238, 0.5)",
+        "bottom": "0",
+        "padding": "1em 0",
+        "position": "absolute",
+        "width": "100%",
+        "font-size": "0.75em"
+      }
+    },
+    {
+      "selectors": ["made-with"],
+      "style": {
+        "float": "left",
+        "width": "50%",
+        "padding": "5px 0"
+      }
+    },
+    {
+      "selectors": ["foot-social-btns"],
+      "style": {
+        "display": "none",
+        "float": "right",
+        "width": "50%",
+        "text-align": "right",
+        "padding": "5px 0"
+      }
+    },
+    {
+      "selectors": ["footer-container"],
+      "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "align-items": "stretch",
+        "justify-content": "space-around"
+      }
+    },
+    {
+      "selectors": ["foot-list"],
+      "style": {
+        "float": "left",
+        "width": "200px"
+      }
+    },
+    {
+      "selectors": ["foot-list-title"],
+      "style": {
+        "font-weight": "400",
+        "margin-bottom": "10px",
+        "padding": "0.5em 0"
+      }
+    },
+    {
+      "selectors": ["foot-list-item"],
+      "style": {
+        "color": "rgba(238, 238, 238, 0.8)",
+        "font-size": "0.8em",
+        "padding": "0.5em 0"
+      }
+    },
+    {
+      "selectors": ["foot-list-item"],
+      "style": {
+        "color": "rgba(238, 238, 238, 1)"
+      },
+      "state": "hover"
+    },
+    {
+      "selectors": ["foot-form-cont"],
+      "style": {
+        "width": "300px",
+        "float": "right"
+      }
+    },
+    {
+      "selectors": ["foot-form-title"],
+      "style": {
+        "color": "rgba(255,255,255,0.75)",
+        "font-weight": "400",
+        "margin-bottom": "10px",
+        "padding": "0.5em 0",
+        "text-align": "right",
+        "font-size": "2em"
+      }
+    },
+    {
+      "selectors": ["foot-form-desc"],
+      "style": {
+        "font-size": "0.8em",
+        "color": "rgba(255,255,255,0.55)",
+        "line-height": "20px",
+        "text-align": "right",
+        "margin-bottom": "15px"
+      }
+    },
+    {
+      "selectors": ["form"],
+      "style": {
+        "border-radius": "3px",
+        "padding": "10px 15px",
+        "background-color": "rgba(0,0,0,0.2)"
+      }
+    },
+    {
+      "selectors": ["input"],
+      "style": {
+        "width": "100%",
+        "margin-bottom": "15px",
+        "padding": "7px 10px",
+        "border-radius": "2px",
+        "color": "#fff",
+        "background-color": "#554c57",
+        "border": "none"
+      }
+    },
+    {
+      "selectors": ["textarea"],
+      "style": {
+        "width": "100%",
+        "margin-bottom": "15px",
+        "padding": "7px 10px",
+        "border-radius": "2px",
+        "color": "#fff",
+        "background-color": "#554c57",
+        "border": "none"
+      }
+    },
+    {
+      "selectors": ["select"],
+      "style": {
+        "width": "100%",
+        "margin-bottom": "15px",
+        "padding": "7px 10px",
+        "border-radius": "2px",
+        "color": "#fff",
+        "background-color": "#554c57",
+        "border": "none",
+        "height": "30px"
+      }
+    },
+    {
+      "selectors": ["sub-input"],
+      "style": {
+        "width": "100%",
+        "margin-bottom": "15px",
+        "padding": "7px 10px",
+        "border-radius": "2px",
+        "color": "#fff",
+        "background-color": "#554c57",
+        "border": "none"
+      }
+    },
+    {
+      "selectors": ["label"],
+      "style": {
+        "width": "100%",
+        "display": "block"
+      }
+    },
+    {
+      "selectors": ["button"],
+      "style": {
+        "width": "100%",
+        "margin": "15px 0",
+        "background-color": "#785580",
+        "border": "none",
+        "color": "#fff",
+        "border-radius": "2px",
+        "padding": "7px 10px",
+        "font-size": "1em",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "selectors": ["sub-btn"],
+      "style": {
+        "width": "100%",
+        "margin": "15px 0",
+        "background-color": "#785580",
+        "border": "none",
+        "color": "#fff",
+        "border-radius": "2px",
+        "padding": "7px 10px",
+        "font-size": "1em",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "selectors": ["sub-btn"],
+      "style": {
+        "background-color": "#91699a"
+      },
+      "state": "hover"
+    },
+    {
+      "selectors": ["sub-btn"],
+      "style": {
+        "background-color": "#573f5c"
+      },
+      "state": "active"
+    },
+    {
+      "selectors": ["blk-row"],
+      "style": {
+        "content": "\"\"",
+        "clear": "both",
+        "display": "block"
+      },
+      "state": ":after"
+    },
+    {
+      "selectors": ["blk-row"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["blk1"],
+      "style": {
+        "width": "100%",
+        "padding": "10px",
+        "min-height": "75px"
+      }
+    },
+    {
+      "selectors": ["blk2"],
+      "style": {
+        "float": "left",
+        "width": "50%",
+        "padding": "10px",
+        "min-height": "75px"
+      }
+    },
+    {
+      "selectors": ["blk3"],
+      "style": {
+        "float": "left",
+        "width": "33.3333%",
+        "padding": "10px",
+        "min-height": "75px"
+      }
+    },
+    {
+      "selectors": ["blk37l"],
+      "style": {
+        "float": "left",
+        "width": "30%",
+        "padding": "10px",
+        "min-height": "75px"
+      }
+    },
+    {
+      "selectors": ["blk37r"],
+      "style": {
+        "float": "left",
+        "width": "70%",
+        "padding": "10px",
+        "min-height": "75px"
+      }
+    },
+    {
+      "selectors": ["heading"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["paragraph"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["bdg-sect"],
+      "style": {
+        "padding-top": "100px",
+        "padding-bottom": "100px",
+        "font-family": "Helvetica, serif",
+        "background-color": "#fafafa"
+      }
+    },
+    {
+      "selectors": ["bdg-title"],
+      "style": {
+        "text-align": "center",
+        "font-size": "2em",
+        "margin-bottom": "55px",
+        "color": "#555555"
+      }
+    },
+    {
+      "selectors": ["badges"],
+      "style": {
+        "padding": "20px",
+        "display": "flex",
+        "justify-content": "space-around",
+        "align-items": "flex-start",
+        "flex-wrap": "wrap"
+      }
+    },
+    {
+      "selectors": ["badge"],
+      "style": {
+        "width": "290px",
+        "font-family": "Helvetica, serif",
+        "background-color": "white",
+        "margin-bottom": "30px",
+        "box-shadow": "0 2px 2px 0 rgba(0, 0, 0, 0.2)",
+        "border-radius": "3px",
+        "font-weight": "100",
+        "overflow": "hidden",
+        "text-align": "center"
+      }
+    },
+    {
+      "selectors": ["badge-header"],
+      "style": {
+        "height": "115px",
+        "background-image": "url(\"/assets/images/demos/bg-gr-v.png\"), url(\"/assets/images/demos/work-desk.jpg\")",
+        "background-position": "left top, center center",
+        "background-attachment": "scroll, fixed",
+        "overflow": "hidden"
+      }
+    },
+    {
+      "selectors": ["blurer"],
+      "style": {
+        "filter": "blur(5px)"
+      }
+    },
+    {
+      "selectors": ["badge-name"],
+      "style": {
+        "font-size": "1.4em",
+        "margin-bottom": "5px"
+      }
+    },
+    {
+      "selectors": ["badge-role"],
+      "style": {
+        "color": "#777",
+        "font-size": "1em",
+        "margin-bottom": "25px"
+      }
+    },
+    {
+      "selectors": ["badge-desc"],
+      "style": {
+        "font-size": "0.85rem",
+        "line-height": "20px"
+      }
+    },
+    {
+      "selectors": ["badge-avatar"],
+      "style": {
+        "width": "100px",
+        "height": "100px",
+        "border-radius": "100%",
+        "border": "5px solid #fff",
+        "box-shadow": "0 1px 1px 0 rgba(0, 0, 0, 0.2)",
+        "margin-top": "-75px",
+        "position": "relative"
+      }
+    },
+    {
+      "selectors": ["badge-body"],
+      "style": {
+        "margin": "35px 10px"
+      }
+    },
+    {
+      "selectors": ["badge-foot"],
+      "style": {
+        "color": "#fff",
+        "background-color": "#a290a5",
+        "padding-top": "13px",
+        "padding-bottom": "13px",
+        "display": "flex",
+        "justify-content": "center"
+      }
+    },
+    {
+      "selectors": ["badge-link"],
+      "style": {
+        "height": "35px",
+        "width": "35px",
+        "line-height": "35px",
+        "font-weight": "700",
+        "background-color": "#fff",
+        "color": "#a290a5",
+        "display": "block",
+        "border-radius": "100%",
+        "margin": "0 10px"
+      }
+    },
+    {
+      "selectors": ["quote"],
+      "style": {
+        "color": "#777",
+        "font-weight": "300",
+        "padding": "10px",
+        "box-shadow": "-5px 0 0 0 #ccc",
+        "font-style": "italic",
+        "margin": "20px 30px"
+      }
+    },
+    {
+      "selectors": ["foot-form-cont"],
+      "style": {
+        "width": "400px"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["foot-form-title"],
+      "style": {
+        "width": "autopx"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["foot-lists"],
+      "style": {
+        "display": "none"
+      },
+      "mediaText": "(max-width: 480px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#iw2pai"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["#i5qfjg"],
+      "style": {
+        "color": "black",
+        "width": "261px",
+        "height": "165px"
+      }
+    },
+    {
+      "selectors": ["#iuxsqw"],
+      "style": {
+        "padding": "10px",
+        "text-align": "center"
+      }
+    },
+    {
+      "selectors": [
+        {
+          "name": "gjs-row",
+          "private": 1
+        }
+      ],
+      "style": {
+        "display": "flex",
+        "justify-content": "flex-start",
+        "align-items": "stretch",
+        "flex-wrap": "nowrap",
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": [
+        {
+          "name": "gjs-row",
+          "private": 1
+        }
+      ],
+      "style": {
+        "flex-wrap": "wrap"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": [
+        {
+          "name": "gjs-cell",
+          "private": 1
+        }
+      ],
+      "style": {
+        "min-height": "75px",
+        "flex-grow": "1",
+        "flex-basis": "100%"
+      }
+    },
+    {
+      "selectors": ["#iu9a"],
+      "style": {
+        "float": "left"
+      }
+    },
+    {
+      "selectors": ["#i56aa4"],
+      "style": {
+        "color": "black",
+        "width": "305px"
+      }
+    },
+    {
+      "selectors": ["#iqqihy"],
+      "style": {
+        "display": "flex"
+      }
+    },
+    {
+      "selectors": ["#i6pzqk"],
+      "style": {
+        "align-self": "center",
+        "align-items": "stretch",
+        "margin": "0 0px 0px 0px",
+        "justify-content": "space-between",
+        "width": "auto",
+        "height": "94%",
+        "display": "flex"
+      }
+    },
+    {
+      "selectors": ["#iizm37"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["color:blue"],
+      "style": {
+        "padding": "10px",
+        "color": "#fe2626"
+      }
+    },
+    {
+      "selectors": ["gjs-cell30"],
+      "style": {
+        "width": "30%"
+      }
+    },
+    {
+      "selectors": ["gjs-cell70"],
+      "style": {
+        "width": "70%"
+      }
+    },
+    {
+      "selectors": ["#ix7t1n"],
+      "style": {
+        "flex-basis": "50%"
+      }
+    },
+    {
+      "selectors": ["#i6d1je"],
+      "style": {
+        "flex-basis": "50%",
+        "text-align": "left"
+      }
+    },
+    {
+      "selectors": ["#i6569h"],
+      "style": {
+        "color": "black",
+        "width": "112%"
+      }
+    },
+    {
+      "selectors": ["#imn4x4"],
+      "style": {
+        "padding": "10px 10% 0 10px",
+        "text-align": "center",
+        "font-size": "34px",
+        "font-weight": "700",
+        "font-family": "Times New Roman, Times, serif",
+        "margin": "0 0 20px 0"
+      }
+    },
+    {
+      "selectors": ["#imb7qv"],
+      "style": {
+        "padding": "10px 20% 0 20%",
+        "margin": "0px 0px 20px 0px",
+        "font-size": "18px"
+      }
+    },
+    {
+      "selectors": ["#ia5f01"],
+      "style": {
+        "padding": "0 20% 10px 20%"
+      }
+    },
+    {
+      "selectors": ["#i5j2hl"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["#imgxdf"],
+      "style": {
+        "border-width": "0px",
+        "border-style": "solid",
+        "border-color": "rgb(34, 157, 255)",
+        "--tw-border-spacing-x": "0",
+        "--tw-border-spacing-y": "0",
+        "--tw-translate-x": "0",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-skew-x": "0",
+        "--tw-skew-y": "0",
+        "--tw-scale-x": "1",
+        "--tw-scale-y": "1",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-ring-offset-width": "0px",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-ring-color": "rgba(59, 130, 246, 0.5)",
+        "--tw-ring-offset-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-ring-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow-colored": "0 0 rgba(0, 0, 0, 0)",
+        "scroll-behavior": "smooth",
+        "margin-bottom": "10px",
+        "font-size": "18px",
+        "font-weight": "700",
+        "line-height": "28px",
+        "font-family": "Arial, Helvetica, sans-serif"
+      }
+    },
+    {
+      "selectors": ["#izao0e"],
+      "style": {
+        "padding": "0px 0px 0 0px"
+      }
+    },
+    {
+      "selectors": ["#i6x8l3"],
+      "style": {
+        "border-width": "0px",
+        "border-style": "solid",
+        "border-color": "rgb(34, 157, 255)",
+        "--tw-border-spacing-x": "0",
+        "--tw-border-spacing-y": "0",
+        "--tw-translate-x": "0",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-skew-x": "0",
+        "--tw-skew-y": "0",
+        "--tw-scale-x": "1",
+        "--tw-scale-y": "1",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-ring-offset-width": "0px",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-ring-color": "rgba(59, 130, 246, 0.5)",
+        "--tw-ring-offset-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-ring-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow-colored": "0 0 rgba(0, 0, 0, 0)",
+        "scroll-behavior": "smooth",
+        "margin-bottom": "10px",
+        "font-size": "18px",
+        "font-weight": "700",
+        "line-height": "28px",
+        "font-family": "proxima-nova, sans-serif"
+      }
+    },
+    {
+      "selectors": ["#iiln5r"],
+      "style": {
+        "font-family": "proxima-nova, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400"
+      }
+    },
+    {
+      "selectors": ["#ip3mym"],
+      "style": {
+        "flex-basis": "101%"
+      }
+    },
+    {
+      "selectors": ["#iijlb9"],
+      "style": {
+        "font-family": "proxima-nova, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400"
+      }
+    },
+    {
+      "selectors": ["#idx95g"],
+      "style": {
+        "padding": "0px 0px 0px 0"
+      }
+    },
+    {
+      "selectors": ["#i3fpdc"],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": ["#i7rygj"],
+      "style": {
+        "border-width": "0px",
+        "border-style": "solid",
+        "border-color": "rgb(34, 157, 255)",
+        "--tw-border-spacing-x": "0",
+        "--tw-border-spacing-y": "0",
+        "--tw-translate-x": "0",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-skew-x": "0",
+        "--tw-skew-y": "0",
+        "--tw-scale-x": "1",
+        "--tw-scale-y": "1",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-ring-offset-width": "0px",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-ring-color": "rgba(59, 130, 246, 0.5)",
+        "--tw-ring-offset-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-ring-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow-colored": "0 0 rgba(0, 0, 0, 0)",
+        "scroll-behavior": "smooth",
+        "margin-bottom": "10px",
+        "font-size": "18px",
+        "font-weight": "700",
+        "line-height": "28px",
+        "font-family": "proxima-nova, sans-serif"
+      }
+    },
+    {
+      "selectors": ["#irz6ej"],
+      "style": {
+        "font-family": "proxima-nova, sans-serif",
+        "font-size": "16px",
+        "line-height": "26px"
+      }
+    },
+    {
+      "selectors": ["#iexyh3"],
+      "style": {
+        "padding": "10px 20% 10px 20%",
+        "text-align": "left"
+      }
+    },
+    {
+      "selectors": ["#iv0uvp"],
+      "style": {
+        "padding": "0px 0 0px 0%"
+      }
+    },
+    {
+      "selectors": ["#ilei8a"],
+      "style": {
+        "padding": "0px 0px 0px 0"
+      }
+    },
+    {
+      "selectors": ["#i0dgn2"],
+      "style": {
+        "border-width": "0px",
+        "border-style": "solid",
+        "border-color": "rgb(34, 157, 255)",
+        "--tw-border-spacing-x": "0",
+        "--tw-border-spacing-y": "0",
+        "--tw-translate-x": "0",
+        "--tw-translate-y": "0",
+        "--tw-rotate": "0",
+        "--tw-skew-x": "0",
+        "--tw-skew-y": "0",
+        "--tw-scale-x": "1",
+        "--tw-scale-y": "1",
+        "--tw-scroll-snap-strictness": "proximity",
+        "--tw-ring-offset-width": "0px",
+        "--tw-ring-offset-color": "#fff",
+        "--tw-ring-color": "rgba(59, 130, 246, 0.5)",
+        "--tw-ring-offset-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-ring-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow": "0 0 rgba(0, 0, 0, 0)",
+        "--tw-shadow-colored": "0 0 rgba(0, 0, 0, 0)",
+        "scroll-behavior": "smooth",
+        "margin-bottom": "10px",
+        "font-size": "18px",
+        "font-weight": "700",
+        "line-height": "28px",
+        "font-family": "proxima-nova, sans-serif"
+      }
+    },
+    {
+      "selectors": ["#i1lcmf"],
+      "style": {
+        "padding": "10px",
+        "font-size": "18px",
+        "line-height": "28px"
+      }
+    },
+    {
+      "selectors": ["#intkaf"],
+      "style": {
+        "padding": "0px 0px 0px 0",
+        "font-weight": "700",
+        "font-family": "Verdana, Geneva, sans-serif"
+      }
+    },
+    {
+      "selectors": ["#iuy9o8"],
+      "style": {
+        "padding": "10px",
+        "font-size": "18px",
+        "line-height": "28px"
+      }
+    },
+    {
+      "selectors": ["#i2a31w"],
+      "style": {
+        "color": "#fff4f9",
+        "padding": "11px 30px 11px 30px",
+        "border": "0px solid #e70b0b",
+        "__background-type": "color",
+        "background-repeat": "repeat",
+        "background-position": "left top",
+        "background-attachment": "scroll",
+        "background-size": "auto",
+        "background-image": "linear-gradient(#138cd8 0%, #138cd8 100%)",
+        "border-radius": "6px 6px 6px 6px",
+        "text-align": "left",
+        "text-decoration": "none"
+      }
+    },
+    {
+      "selectors": ["#i2a31w"],
+      "style": {
+        "__background-type": "color",
+        "background-repeat": "repeat",
+        "background-position": "left top",
+        "background-attachment": "scroll",
+        "background-size": "auto",
+        "background-image": "linear-gradient(#1bb4df 0%, #1bb4df 100%)",
+        "border": "0 solid #000000",
+        "color": "#ebe0e0",
+        "border-radius": "6px 6px 6px 6px"
+      },
+      "state": "hover"
+    },
+    {
+      "selectors": ["#i885gs"],
+      "style": {
+        "padding": "0px 20% 0px 20%",
+        "text-align": "left"
+      }
+    },
+    {
+      "selectors": ["#ifkxsr"],
+      "style": {
+        "color": "black",
+        "padding": "0px 0px 5px 0px"
+      }
+    },
+    {
+      "selectors": ["#ix682u"],
+      "style": {
+        "color": "black",
+        "padding": "0 0 5px 0"
+      }
+    },
+    {
+      "selectors": ["#i0o5um"],
+      "style": {
+        "color": "black",
+        "padding": "0 0 5px 0"
+      }
+    },
+    {
+      "selectors": ["#iuusnz"],
+      "style": {
+        "color": "black",
+        "padding": "0 0 5px 0"
+      }
+    },
+    {
+      "selectors": ["#i6569h"],
+      "style": {
+        "width": "100%"
+      },
+      "mediaText": "(max-width: 480px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#imsic2"],
+      "style": {
+        "flex-direction": "column"
+      },
+      "mediaText": "(max-width: 480px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#imsic2"],
+      "style": {
+        "flex-direction": "column"
+      },
+      "mediaText": "(max-width: 992px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#ia5f01"],
+      "style": {
+        "margin": "0px 0px 0px 0px",
+        "padding": "0px 0px 10px 0"
+      },
+      "mediaText": "(max-width: 992px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#ia5f01"],
+      "style": {
+        "flex": "0 0 auto"
+      },
+      "mediaText": "(max-width: 480px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#itpuq9"],
+      "style": {
+        "flex-basis": "100%"
+      },
+      "mediaText": "(max-width: 480px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#ip3mym"],
+      "style": {
+        "max-width": "700px"
+      },
+      "mediaText": "(max-width: 992px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#iexyh3"],
+      "style": {
+        "padding": "10px 0px 10px 0"
+      },
+      "mediaText": "(max-width: 992px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#i6x8l3"],
+      "style": {
+        "font-weight": "200",
+        "line-height": "20px"
+      },
+      "mediaText": "(max-width: 992px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#i56aa4"],
+      "style": {
+        "width": "269px"
+      },
+      "mediaText": "(max-width: 480px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": ["#iik6jt"],
+      "style": {
+        "flex-basis": "50%"
+      }
+    },
+    {
+      "selectors": ["#i4cwng"],
+      "style": {
+        "flex-basis": "50%"
+      }
+    },
+    {
+      "selectors": ["#iytge4"],
+      "style": {
+        "color": "black",
+        "width": "100%"
+      }
+    },
+    {
+      "selectors": ["#in85r2"],
+      "style": {
+        "padding": "10px"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "frames": [
+        {
+          "component": {
+            "type": "wrapper",
+            "stylable": [
+              "background",
+              "background-color",
+              "background-image",
+              "background-repeat",
+              "background-attachment",
+              "background-position",
+              "background-size"
+            ],
+            "attributes": {
+              "id": "igdo"
+            },
+            "components": [
+              {
+                "tagName": "header",
+                "classes": ["header-banner"],
+                "attributes": {
+                  "id": "ifah"
+                },
+                "components": [
+                  {
+                    "classes": ["container-width"],
+                    "attributes": {
+                      "id": "iu9a"
+                    },
+                    "components": [
+                      {
+                        "classes": ["logo-container"],
+                        "attributes": {
+                          "id": "i1h8"
+                        },
+                        "components": [
+                          {
+                            "type": "text",
+                            "classes": ["logo"],
+                            "components": [
+                              {
+                                "type": "textnode",
+                                "content": "GrapesJS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tagName": "nav",
+                        "classes": ["menu"],
+                        "components": [
+                          {
+                            "type": "text",
+                            "classes": ["menu-item"],
+                            "components": [
+                              {
+                                "type": "textnode",
+                                "content": "BUILDER"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "classes": ["menu-item"],
+                            "components": [
+                              {
+                                "type": "textnode",
+                                "content": "TEMPLATE"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "classes": ["menu-item"],
+                            "components": [
+                              {
+                                "type": "textnode",
+                                "content": "WEB"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "classes": ["clearfix"]
+                      },
+                      {
+                        "type": "text",
+                        "attributes": {
+                          "id": "iw2pai"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Insert your text here"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "attributes": {
+                          "id": "iuxsqw"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Hello World"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Row",
+                        "droppable": ".gjs-cell",
+                        "resizable": {
+                          "tl": 0,
+                          "tc": 0,
+                          "tr": 0,
+                          "cl": 0,
+                          "cr": 0,
+                          "bl": 0,
+                          "br": 0,
+                          "minDim": 1
+                        },
+                        "classes": [
+                          {
+                            "name": "gjs-row",
+                            "private": 1
+                          }
+                        ],
+                        "attributes": {
+                          "id": "iyda7x"
+                        },
+                        "components": [
+                          {
+                            "name": "Cell",
+                            "draggable": ".gjs-row",
+                            "stylable-require": ["flex-basis"],
+                            "unstylable": ["width"],
+                            "resizable": {
+                              "tl": 0,
+                              "tc": 0,
+                              "tr": 0,
+                              "cl": 0,
+                              "cr": 1,
+                              "bl": 0,
+                              "br": 0,
+                              "minDim": 1,
+                              "bc": 0,
+                              "currentUnit": 1,
+                              "step": 0.2,
+                              "keyWidth": "flex-basis"
+                            },
+                            "classes": [
+                              {
+                                "name": "gjs-cell",
+                                "private": 1
+                              }
+                            ],
+                            "attributes": {
+                              "id": "inw5av"
+                            },
+                            "components": [
+                              {
+                                "type": "image",
+                                "resizable": {
+                                  "ratioDefault": 1
+                                },
+                                "attributes": {
+                                  "id": "i56aa4",
+                                  "src": "https://via.placeholder.com/350x250/78c5d6/fff"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Cell",
+                            "draggable": ".gjs-row",
+                            "stylable-require": ["flex-basis"],
+                            "unstylable": ["width"],
+                            "resizable": {
+                              "tl": 0,
+                              "tc": 0,
+                              "tr": 0,
+                              "cl": 0,
+                              "cr": 1,
+                              "bl": 0,
+                              "br": 0,
+                              "minDim": 1,
+                              "bc": 0,
+                              "currentUnit": 1,
+                              "step": 0.2,
+                              "keyWidth": "flex-basis"
+                            },
+                            "classes": [
+                              {
+                                "name": "gjs-cell",
+                                "private": 1
+                              }
+                            ],
+                            "attributes": {
+                              "id": "iqqihy"
+                            },
+                            "components": [
+                              {
+                                "tagName": "iframe",
+                                "type": "video",
+                                "resizable": {
+                                  "ratioDefault": 1
+                                },
+                                "attributes": {
+                                  "allowfullscreen": "allowfullscreen",
+                                  "id": "i6pzqk"
+                                },
+                                "src": "https://www.youtube.com/embed/2lW1scQwDQE?&autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=2lW1scQwDQE&rel=0",
+                                "videoId": "2lW1scQwDQE",
+                                "provider": "yt",
+                                "loop": true,
+                                "autoplay": true,
+                                "controls": "",
+                                "rel": "",
+                                "modestbranding": "",
+                                "sources": [],
+                                "custom-name": "Video"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Cell",
+                            "draggable": ".gjs-row",
+                            "stylable-require": ["flex-basis"],
+                            "unstylable": ["width"],
+                            "resizable": {
+                              "tl": 0,
+                              "tc": 0,
+                              "tr": 0,
+                              "cl": 0,
+                              "cr": 1,
+                              "bl": 0,
+                              "br": 0,
+                              "minDim": 1,
+                              "bc": 0,
+                              "currentUnit": 1,
+                              "step": 0.2,
+                              "keyWidth": "flex-basis"
+                            },
+                            "classes": [
+                              {
+                                "name": "gjs-cell",
+                                "private": 1
+                              }
+                            ],
+                            "attributes": {
+                              "id": "ivi6bk"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "attributes": {
+                          "id": "iizm37"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Insert your text here"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "classes": ["lead-title"],
+                        "attributes": {
+                          "id": "isen4"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Build your templates without coding"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "classes": ["sub-lead-title"],
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "All text blocks could be edited easily with double clicking on it. You can create new text blocks with the command from the left panel"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "classes": ["lead-btn"],
+                        "attributes": {
+                          "id": "iz8o4"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Hover me"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagName": "section",
+                "classes": ["flex-sect"],
+                "attributes": {
+                  "id": "iw1s5"
+                },
+                "components": [
+                  {
+                    "classes": ["container-width"],
+                    "attributes": {
+                      "id": "imocu"
+                    },
+                    "components": [
+                      {
+                        "type": "text",
+                        "classes": ["flex-title"],
+                        "attributes": {
+                          "id": "isckh"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Flex is the new black"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "classes": ["flex-desc"],
+                        "attributes": {
+                          "id": "izv65"
+                        },
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "With flexbox system you're able to build complex layouts easily and with free responsivity"
+                          }
+                        ]
+                      },
+                      {
+                        "classes": ["cards"],
+                        "attributes": {
+                          "id": "ibdmt"
+                        },
+                        "components": [
+                          {
+                            "classes": ["card"],
+                            "components": [
+                              {
+                                "classes": ["card-header"],
+                                "attributes": {
+                                  "id": "i8znl"
+                                }
+                              },
+                              {
+                                "classes": ["card-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Title one"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-sub-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subtitle one"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["card"],
+                            "components": [
+                              {
+                                "classes": ["card-header", "ch2"]
+                              },
+                              {
+                                "classes": ["card-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Title two"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-sub-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subtitle two"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["card"],
+                            "components": [
+                              {
+                                "classes": ["card-header", "ch3"]
+                              },
+                              {
+                                "classes": ["card-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Title three"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-sub-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subtitle three"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["card"],
+                            "components": [
+                              {
+                                "classes": ["card-header", "ch4"]
+                              },
+                              {
+                                "classes": ["card-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Title four"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-sub-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subtitle four"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["card"],
+                            "components": [
+                              {
+                                "classes": ["card-header", "ch5"]
+                              },
+                              {
+                                "classes": ["card-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Title five"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-sub-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subtitle five"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["card"],
+                            "components": [
+                              {
+                                "classes": ["card-header", "ch6"]
+                              },
+                              {
+                                "classes": ["card-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Title six"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-sub-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subtitle six"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["card-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagName": "section",
+                "classes": ["am-sect"],
+                "attributes": {
+                  "id": "iwvjt"
+                },
+                "components": [
+                  {
+                    "classes": ["container-width"],
+                    "components": [
+                      {
+                        "classes": ["am-container"],
+                        "components": [
+                          {
+                            "type": "image",
+                            "resizable": {
+                              "ratioDefault": 1
+                            },
+                            "classes": ["img-phone"],
+                            "attributes": {
+                              "src": "/assets/images/demos/phone-app.png"
+                            }
+                          },
+                          {
+                            "classes": ["am-content"],
+                            "components": [
+                              {
+                                "type": "text",
+                                "classes": ["am-pre"],
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "ASSET MANAGER"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "classes": ["am-title"],
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage your images with Asset Manager"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "classes": ["am-desc"],
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "You can create image blocks with the command from the left panel and edit them with double click"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "classes": ["am-post"],
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Image uploading is not allowed in this demo"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Row",
+                "droppable": ".gjs-cell",
+                "resizable": {
+                  "tl": 0,
+                  "tc": 0,
+                  "tr": 0,
+                  "cl": 0,
+                  "cr": 0,
+                  "bl": 0,
+                  "br": 0,
+                  "minDim": 1
+                },
+                "classes": [
+                  {
+                    "name": "gjs-row",
+                    "private": 1
+                  }
+                ],
+                "attributes": {
+                  "id": "ihncgg"
+                },
+                "components": [
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "stylable-require": ["flex-basis"],
+                    "unstylable": ["width"],
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2,
+                      "keyWidth": "flex-basis"
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ],
+                    "attributes": {
+                      "id": "inzrk2"
+                    },
+                    "components": [
+                      {
+                        "name": "Row",
+                        "droppable": ".gjs-cell",
+                        "resizable": {
+                          "tl": 0,
+                          "tc": 0,
+                          "tr": 0,
+                          "cl": 0,
+                          "cr": 0,
+                          "bl": 0,
+                          "br": 0,
+                          "minDim": 1
+                        },
+                        "classes": [
+                          {
+                            "name": "gjs-row",
+                            "private": 1
+                          }
+                        ],
+                        "attributes": {
+                          "id": "imsic2"
+                        },
+                        "components": [
+                          {
+                            "name": "Cell",
+                            "draggable": ".gjs-row",
+                            "stylable-require": ["flex-basis"],
+                            "unstylable": ["width"],
+                            "resizable": {
+                              "tl": 0,
+                              "tc": 0,
+                              "tr": 0,
+                              "cl": 0,
+                              "cr": 1,
+                              "bl": 0,
+                              "br": 0,
+                              "minDim": 1,
+                              "bc": 0,
+                              "currentUnit": 1,
+                              "step": 0.2,
+                              "keyWidth": "flex-basis"
+                            },
+                            "classes": [
+                              {
+                                "name": "gjs-cell",
+                                "private": 1
+                              }
+                            ],
+                            "attributes": {
+                              "id": "ix7t1n"
+                            },
+                            "components": [
+                              {
+                                "type": "image",
+                                "resizable": {
+                                  "ratioDefault": 1
+                                },
+                                "attributes": {
+                                  "id": "i6569h",
+                                  "src": "https://redefinecommerce.blob.core.windows.net/lanomedia/1/store/5/images/d-what-lano-offers.png?0.16061601495898614"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Cell",
+                            "draggable": ".gjs-row",
+                            "stylable-require": ["flex-basis"],
+                            "unstylable": ["width"],
+                            "resizable": {
+                              "tl": 0,
+                              "tc": 0,
+                              "tr": 0,
+                              "cl": 0,
+                              "cr": 1,
+                              "bl": 0,
+                              "br": 0,
+                              "minDim": 1,
+                              "bc": 0,
+                              "currentUnit": 1,
+                              "step": 0.2,
+                              "keyWidth": "flex-basis"
+                            },
+                            "classes": [
+                              {
+                                "name": "gjs-cell",
+                                "private": 1
+                              }
+                            ],
+                            "attributes": {
+                              "id": "i6d1je"
+                            },
+                            "components": [
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "imn4x4"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "What Lano Offers"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "imb7qv"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "We offers a great selection of skid steer loaders, compact tractors, lawn and garden and much more."
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Row",
+                                "droppable": ".gjs-cell",
+                                "resizable": {
+                                  "tl": 0,
+                                  "tc": 0,
+                                  "tr": 0,
+                                  "cl": 0,
+                                  "cr": 0,
+                                  "bl": 0,
+                                  "br": 0,
+                                  "minDim": 1
+                                },
+                                "classes": [
+                                  {
+                                    "name": "gjs-row",
+                                    "private": 1
+                                  }
+                                ],
+                                "attributes": {
+                                  "id": "ia5f01"
+                                },
+                                "components": [
+                                  {
+                                    "name": "Cell",
+                                    "draggable": ".gjs-row",
+                                    "stylable-require": ["flex-basis"],
+                                    "unstylable": ["width"],
+                                    "resizable": {
+                                      "tl": 0,
+                                      "tc": 0,
+                                      "tr": 0,
+                                      "cl": 0,
+                                      "cr": 1,
+                                      "bl": 0,
+                                      "br": 0,
+                                      "minDim": 1,
+                                      "bc": 0,
+                                      "currentUnit": 1,
+                                      "step": 0.2,
+                                      "keyWidth": "flex-basis"
+                                    },
+                                    "classes": [
+                                      {
+                                        "name": "gjs-cell",
+                                        "private": 1
+                                      }
+                                    ],
+                                    "attributes": {
+                                      "id": "itpuq9"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "image",
+                                        "resizable": {
+                                          "ratioDefault": 1
+                                        },
+                                        "attributes": {
+                                          "id": "ifkxsr",
+                                          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAsCAYAAADxRjE/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuMTQ2Mjg5OSwgMjAyMy8wNi8yNS0yMDowMTo1NSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wOS0yNlQxNDoxNjoyOSswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMDktMjZUMTQ6MjA6MDYrMDU6MzAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMDktMjZUMTQ6MjA6MDYrMDU6MzAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjIwODQ4ZmNlLWRkZWEtYWQ0YS04MjRhLWVmZmViMmVjYzZjNCIgeG1wTU06RG9jdW1lbnRJRD0i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"
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "izao0e"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "text",
+                                            "attributes": {
+                                              "id": "i6x8l3"
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "textnode",
+                                                "content": "TOP SALES PROS"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "i5j2hl"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "text",
+                                            "classes": [
+                                              "mb-[10px]",
+                                              "text-[16px]",
+                                              "leading-[22px]",
+                                              "lg:text-[18px]",
+                                              "lg:leading-[28px]",
+                                              "font-bold"
+                                            ],
+                                            "attributes": {
+                                              "id": "imgxdf"
+                                            },
+                                            "components": [
+                                              {
+                                                "tagName": "span",
+                                                "type": "text",
+                                                "attributes": {
+                                                  "id": "iijlb9"
+                                                },
+                                                "components": [
+                                                  {
+                                                    "type": "textnode",
+                                                    "content": "Skid steers, excavators, track loaders, attachments, compact tractors, and more. We consistently inventory over 300 pieces of used equipment at all times."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "tagName": "br",
+                                                "void": true
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Cell",
+                                    "draggable": ".gjs-row",
+                                    "stylable-require": ["flex-basis"],
+                                    "unstylable": ["width"],
+                                    "resizable": {
+                                      "tl": 0,
+                                      "tc": 0,
+                                      "tr": 0,
+                                      "cl": 0,
+                                      "cr": 1,
+                                      "bl": 0,
+                                      "br": 0,
+                                      "minDim": 1,
+                                      "bc": 0,
+                                      "currentUnit": 1,
+                                      "step": 0.2,
+                                      "keyWidth": "flex-basis"
+                                    },
+                                    "classes": [
+                                      {
+                                        "name": "gjs-cell",
+                                        "private": 1
+                                      }
+                                    ],
+                                    "attributes": {
+                                      "id": "ip3mym"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "image",
+                                        "resizable": {
+                                          "ratioDefault": 1
+                                        },
+                                        "attributes": {
+                                          "id": "ix682u",
+                                          "src": "data:image/png;base64,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"
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "idx95g"
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "classes": [
+                                          "mb-[10px]",
+                                          "text-[16px]",
+                                          "leading-[22px]",
+                                          "lg:text-[18px]",
+                                          "lg:leading-[28px]",
+                                          "font-bold"
+                                        ],
+                                        "attributes": {
+                                          "id": "i7rygj"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "textnode",
+                                            "content": "HUGE USED INVENTORY"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "i3fpdc"
+                                        },
+                                        "components": [
+                                          {
+                                            "tagName": "span",
+                                            "type": "text",
+                                            "attributes": {
+                                              "id": "irz6ej"
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "textnode",
+                                                "content": "Skid steers, excavators, track loaders, attachments, compact tractors, and more. We consistently inventory over 300 pieces of used equipment at all times."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Row",
+                                "droppable": ".gjs-cell",
+                                "resizable": {
+                                  "tl": 0,
+                                  "tc": 0,
+                                  "tr": 0,
+                                  "cl": 0,
+                                  "cr": 0,
+                                  "bl": 0,
+                                  "br": 0,
+                                  "minDim": 1
+                                },
+                                "classes": [
+                                  {
+                                    "name": "gjs-row",
+                                    "private": 1
+                                  }
+                                ],
+                                "attributes": {
+                                  "id": "iexyh3"
+                                },
+                                "components": [
+                                  {
+                                    "name": "Cell",
+                                    "draggable": ".gjs-row",
+                                    "stylable-require": ["flex-basis"],
+                                    "unstylable": ["width"],
+                                    "resizable": {
+                                      "tl": 0,
+                                      "tc": 0,
+                                      "tr": 0,
+                                      "cl": 0,
+                                      "cr": 1,
+                                      "bl": 0,
+                                      "br": 0,
+                                      "minDim": 1,
+                                      "bc": 0,
+                                      "currentUnit": 1,
+                                      "step": 0.2,
+                                      "keyWidth": "flex-basis"
+                                    },
+                                    "classes": [
+                                      {
+                                        "name": "gjs-cell",
+                                        "private": 1
+                                      }
+                                    ],
+                                    "attributes": {
+                                      "id": "iv0uvp"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "image",
+                                        "resizable": {
+                                          "ratioDefault": 1
+                                        },
+                                        "attributes": {
+                                          "id": "i0o5um",
+                                          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAsCAYAAADxRjE/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuMTQ2Mjg5OSwgMjAyMy8wNi8yNS0yMDowMTo1NSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wOS0yNlQxNDoxNjoyOSswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMDktMjZUMTQ6MTk6NDIrMDU6MzAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMDktMjZUMTQ6MTk6NDIrMDU6MzAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJjNDEzZDdmLTI0YzEtZjI0Ni1hMGI3LWNmOTMxODM0NzdmOCIgeG1wTU06RG9jdW1lbnRJRD0i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"
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "ilei8a"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "text",
+                                            "classes": [
+                                              "mb-[10px]",
+                                              "text-[16px]",
+                                              "leading-[22px]",
+                                              "lg:text-[18px]",
+                                              "lg:leading-[28px]",
+                                              "font-bold"
+                                            ],
+                                            "attributes": {
+                                              "id": "i0dgn2"
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "textnode",
+                                                "content": "COMPETITIVE PRICING"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "i1lcmf"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "textnode",
+                                            "content": "For new and user equipment for construction or agriculture, you can always count on lano for prices that will complete with any dealership, anywhere, anytime."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Cell",
+                                    "draggable": ".gjs-row",
+                                    "stylable-require": ["flex-basis"],
+                                    "unstylable": ["width"],
+                                    "resizable": {
+                                      "tl": 0,
+                                      "tc": 0,
+                                      "tr": 0,
+                                      "cl": 0,
+                                      "cr": 1,
+                                      "bl": 0,
+                                      "br": 0,
+                                      "minDim": 1,
+                                      "bc": 0,
+                                      "currentUnit": 1,
+                                      "step": 0.2,
+                                      "keyWidth": "flex-basis"
+                                    },
+                                    "classes": [
+                                      {
+                                        "name": "gjs-cell",
+                                        "private": 1
+                                      }
+                                    ],
+                                    "attributes": {
+                                      "id": "iloick"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "image",
+                                        "resizable": {
+                                          "ratioDefault": 1
+                                        },
+                                        "attributes": {
+                                          "id": "iuusnz",
+                                          "src": "data:image/png;base64,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"
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "intkaf"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "textnode",
+                                            "content": "TOP BRNADS"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "text",
+                                        "attributes": {
+                                          "id": "iuy9o8"
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "textnode",
+                                            "content": "we're proud to represent Bobcat, Kubota, Doosan, Toro, Stihl, Wacker, Felling and Load Trail Trailers, virnig, paladin, Berlon, snow wolf, Land Pride Attachments and many others. "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "section",
+                                "classes": ["bdg-sect"],
+                                "attributes": {
+                                  "id": "i885gs"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "id": "i2a31w",
+                                      "href": "https://lano.redefineapp.io/",
+                                      "target": false,
+                                      "title": "title"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "VIEW ALL OUT INVENTORY"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Row",
+                "droppable": ".gjs-cell",
+                "resizable": {
+                  "tl": 0,
+                  "tc": 0,
+                  "tr": 0,
+                  "cl": 0,
+                  "cr": 0,
+                  "bl": 0,
+                  "br": 0,
+                  "minDim": 1
+                },
+                "classes": [
+                  {
+                    "name": "gjs-row",
+                    "private": 1
+                  }
+                ],
+                "attributes": {
+                  "id": "is3rww"
+                },
+                "components": [
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "stylable-require": ["flex-basis"],
+                    "unstylable": ["width"],
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2,
+                      "keyWidth": "flex-basis"
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ],
+                    "attributes": {
+                      "id": "iik6jt"
+                    },
+                    "components": [
+                      {
+                        "type": "image",
+                        "resizable": {
+                          "ratioDefault": 1
+                        },
+                        "attributes": {
+                          "id": "iytge4",
+                          "src": "https://redefinecommerce.blob.core.windows.net/lanomedia/1/store/5/images/d-what-lano-offers.png?0.16061601495898614"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "stylable-require": ["flex-basis"],
+                    "unstylable": ["width"],
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2,
+                      "keyWidth": "flex-basis"
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ],
+                    "attributes": {
+                      "id": "i4cwng"
+                    },
+                    "components": [
+                      {
+                        "type": "text",
+                        "content": "Insert your text here",
+                        "attributes": {
+                          "id": "in85r2"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagName": "section",
+                "classes": ["blk-sect"],
+                "attributes": {
+                  "id": "ih8482"
+                },
+                "components": [
+                  {
+                    "classes": ["container-width"],
+                    "components": [
+                      {
+                        "type": "text",
+                        "classes": ["blk-title"],
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Blocks"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "classes": ["blk-desc"],
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "Each element in HTML page could be seen as a block. On the left panel you could find different kind of blocks that you can create, move and style"
+                          }
+                        ]
+                      },
+                      {
+                        "classes": ["price-cards"],
+                        "components": [
+                          {
+                            "classes": ["price-card-cont"],
+                            "components": [
+                              {
+                                "classes": ["price-card"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Starter"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Some random list"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Starter feature 1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Starter feature 2"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Starter feature 3"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Starter feature 4"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-amount", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "$ 9,90/mo"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["price-card-cont"],
+                            "components": [
+                              {
+                                "classes": ["price-card", "pc-regular"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Regular"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Some random list"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Regular feature 1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Regular feature 2"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Regular feature 3"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Regular feature 4"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-amount", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "$ 19,90/mo"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["price-card-cont"],
+                            "components": [
+                              {
+                                "classes": ["price-card", "pc-enterprise"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Enterprise"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "image",
+                                    "resizable": {
+                                      "ratioDefault": 1
+                                    },
+                                    "attributes": {
+                                      "id": "i5qfjg",
+                                      "src": "data:image/png;base64,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"
+                                    }
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Some random list"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Enterprise feature 1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Enterprise feature 2"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Enterprise feature 3"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-feature"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "+ Enterprise feature 4"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["pc-amount", "odd-feat"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "$ 29,90/mo"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagName": "section",
+                "classes": ["bdg-sect"],
+                "components": [
+                  {
+                    "classes": ["container-width"],
+                    "components": [
+                      {
+                        "tagName": "h1",
+                        "type": "text",
+                        "classes": ["bdg-title"],
+                        "components": [
+                          {
+                            "type": "textnode",
+                            "content": "The team"
+                          }
+                        ]
+                      },
+                      {
+                        "classes": ["badges"],
+                        "components": [
+                          {
+                            "classes": ["badge"],
+                            "components": [
+                              {
+                                "classes": ["badge-header"]
+                              },
+                              {
+                                "type": "image",
+                                "resizable": {
+                                  "ratioDefault": 1
+                                },
+                                "classes": ["badge-avatar"],
+                                "attributes": {
+                                  "src": "/assets/images/demos/team1.jpg"
+                                }
+                              },
+                              {
+                                "classes": ["badge-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-name"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Adam Smith"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-role"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "CEO"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ipsum dolor sit"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "classes": ["badge-foot"],
+                                "components": [
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "f"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "t"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "ln"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["badge"],
+                            "components": [
+                              {
+                                "classes": ["badge-header"]
+                              },
+                              {
+                                "type": "image",
+                                "resizable": {
+                                  "ratioDefault": 1
+                                },
+                                "classes": ["badge-avatar"],
+                                "attributes": {
+                                  "src": "/assets/images/demos/team2.jpg"
+                                }
+                              },
+                              {
+                                "classes": ["badge-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-name"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "John Black"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-role"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Software Engineer"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ipsum dolor sit"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "classes": ["badge-foot"],
+                                "components": [
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "f"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "t"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "ln"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["badge"],
+                            "components": [
+                              {
+                                "classes": ["badge-header"]
+                              },
+                              {
+                                "type": "image",
+                                "resizable": {
+                                  "ratioDefault": 1
+                                },
+                                "classes": ["badge-avatar"],
+                                "attributes": {
+                                  "src": "/assets/images/demos/team3.jpg"
+                                }
+                              },
+                              {
+                                "classes": ["badge-body"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-name"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Jessica White"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-role"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Web Designer"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["badge-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ipsum dolor sit"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "classes": ["badge-foot"],
+                                "components": [
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "f"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "t"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tagName": "span",
+                                    "type": "text",
+                                    "classes": ["badge-link"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "ln"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Row",
+                    "droppable": ".gjs-cell",
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 0,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-row",
+                        "private": 1
+                      }
+                    ],
+                    "attributes": {
+                      "id": "igcl6g"
+                    }
+                  }
+                ]
+              },
+              {
+                "tagName": "footer",
+                "classes": ["footer-under"],
+                "components": [
+                  {
+                    "classes": ["container-width"],
+                    "components": [
+                      {
+                        "classes": ["footer-container"],
+                        "components": [
+                          {
+                            "classes": ["foot-lists"],
+                            "components": [
+                              {
+                                "classes": ["foot-list"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "About us"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Contact"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Events"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Company"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Jobs"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Blog"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "classes": ["foot-list"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Services"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Education"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Partner"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Community"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Forum"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Download"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-list-item"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Upgrade"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "classes": ["clearfix"]
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["form-sub"],
+                            "components": [
+                              {
+                                "classes": ["foot-form-cont"],
+                                "components": [
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-form-title"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subscribe"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "classes": ["foot-form-desc"],
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Subscribe to our newsletter to receive exclusive offers and the latest news"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "input",
+                                    "void": true,
+                                    "classes": ["sub-input"],
+                                    "attributes": {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Name"
+                                    }
+                                  },
+                                  {
+                                    "type": "input",
+                                    "void": true,
+                                    "classes": ["sub-input"],
+                                    "attributes": {
+                                      "type": "text",
+                                      "name": "email",
+                                      "placeholder": "Email"
+                                    }
+                                  },
+                                  {
+                                    "type": "button",
+                                    "classes": ["sub-btn"],
+                                    "attributes": {
+                                      "type": "button"
+                                    },
+                                    "text": "Submit",
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Submit"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "classes": ["copyright"],
+                    "components": [
+                      {
+                        "classes": ["container-width"],
+                        "components": [
+                          {
+                            "type": "text",
+                            "classes": ["made-with"],
+                            "components": [
+                              {
+                                "type": "textnode",
+                                "content": "\n        made with GrapesJS\n        "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "classes": ["foot-social-btns"],
+                            "components": [
+                              {
+                                "type": "textnode",
+                                "content": "facebook twitter linkedin mail"
+                              }
+                            ]
+                          },
+                          {
+                            "classes": ["clearfix"]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "head": {
+              "type": "head"
+            },
+            "docEl": {
+              "tagName": "html"
+            }
+          },
+          "id": "jImECT93dPYDjqtq"
+        }
+      ],
+      "id": "SmIuXEH3WoC9dwyn"
+    }
+  ],
+  "symbols": [],
+  "dataSources": []
+}
